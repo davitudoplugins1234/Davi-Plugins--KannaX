@@ -1,6 +1,6 @@
-@kannax.on_cmd("sexo", about={"header": "sexoooooooooooo"})
+@kannax.on_cmd("teste", about={"header": "teste"})
 async def snake_(message: Message):
-    """muito sexo"""
+    """testeee teste"""
     out = f"""
 teste1!!
 """

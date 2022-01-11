@@ -1,3 +1,17 @@
+import asyncio
+import os
+import random
+import re
+import requests
+import wget
+import datetime
+import math
+from cowpy import cow
+from random import randint, choice
+
+from kannax import Message, kannax
+
+
 @kannax.on_cmd("teste", about={"header": "teste"})
 async def snake_(message: Message):
     """testeee teste"""

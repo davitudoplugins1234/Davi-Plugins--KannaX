@@ -2,18 +2,18 @@
 async def snake_(message: Message):
     """testeee teste"""
     out = f"""
-teste1!!
+teste a
 """
 
     out2 = f"""
-teste 2
+teste b
 """
     out3 = f"""
 Perai...é aqui que estão falando de...
 """
 
     out4 = f"""
-teste 3
+teste c
 """
     await message.edit(out)
     await asyncio.sleep(3)

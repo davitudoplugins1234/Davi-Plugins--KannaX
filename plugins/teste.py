@@ -23,11 +23,11 @@ teste a
 teste b
 """
     out3 = f"""
-Perai...é aqui que estão falando de...
+teste c
 """
 
     out4 = f"""
-teste c
+teste d
 """
     await message.edit(out)
     await asyncio.sleep(3)

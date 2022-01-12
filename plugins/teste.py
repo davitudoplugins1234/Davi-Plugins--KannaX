@@ -143,3 +143,5 @@ async def snake_(message: Message):
     await message.edit(out5)
     await asyncio.sleep(1)
     await message.edit(out6)
+     await asyncio.sleep(1)
+    await message.edit(out7)

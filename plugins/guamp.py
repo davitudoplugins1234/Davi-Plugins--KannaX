@@ -12,7 +12,7 @@ from random import randint, choice
 from kannax import Message, kannax
 
 
-@kannax.on_cmd("historia", about={"header": "historia"})
+@kannax.on_cmd("guamp", about={"header": "guamp"})
 async def snake_(message: Message):
     """memes fodas"""
     out = f"""
